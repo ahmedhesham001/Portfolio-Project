@@ -1,0 +1,31 @@
+:root {
+    /* Font */
+    --font-family: 'Poppins', sans-serif;
+    /* Colors */
+    --white-color: #fff;
+    --button-color: #2E2E2E;
+    --border-color: #717171;
+    --yellow-color: #FFEA9F;
+    --salmon-color: #FFBBC3;
+    --black-color: #151515;
+    --blue-color: #BEDBFE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
