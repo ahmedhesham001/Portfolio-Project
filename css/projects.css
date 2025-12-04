@@ -9,12 +9,14 @@ section#projects .links{
     gap: 23px;
 }
 
-section#projects .link-button{
+.link-button{
+    height: 43px;
+    padding: 10px 20px;
     text-decoration: none;
-    padding: 10px 25px;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
+    gap: 10px;
     font-size: 18px;
     font-weight: 500;
     color: var(--white-color);
@@ -25,12 +27,12 @@ section#projects .link-button{
     transition: all 0.3s ease-in-out;
 }
 
-section#projects .link-button:hover{
+.link-button:hover{
     background-color: var(--salmon-color);
     color: var(--black-color);
 }
 
-section#projects .link-button img {
+.link-button img {
     width: 30px;
     height: auto;
 }
