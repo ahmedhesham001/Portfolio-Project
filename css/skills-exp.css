@@ -1,0 +1,43 @@
+section#skills {
+    max-width: 935px;
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section#skills .skills-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section#skills .skills-header h2 {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+section#skills .skills-header img {
+    width: 33px;
+    height: 33px;
+}
+
+section#skills .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section#skills .skills-container .box {
+    display: flex;
+    gap: 20px;
+}
+
+section#skills .skills-container .box .title {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+
+
