@@ -1,6 +1,28 @@
 /* Navbar + About section */
 
 /* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 150px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--blue-color);
+}
 
 /* About */
 section#hero {
