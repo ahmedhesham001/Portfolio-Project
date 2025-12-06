@@ -18,9 +18,14 @@
     font-family: var(--font-family);
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--black-color);
     color: var(--white-color);
+    overflow-x: hidden;
 }
 
 a {
